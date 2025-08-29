@@ -4,9 +4,9 @@
   "private": true,
   "description": "A comprehensive study tracker app with timer, analytics, and progress tracking",
   "scripts": {
-    "dev": "PORT=3000 next dev",
-    "build": "next build",
-    "start": "next start",
+    "dev": "node init && PORT=3000 next dev",
+    "build": "node init && next build",
+    "start": "node init && next start",
     "lint": "next lint"
   },
   "dependencies": {
